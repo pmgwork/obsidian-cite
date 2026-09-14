@@ -49,7 +49,7 @@ Cite supports common `article`, `book`, `inproceedings`/`conference`, `incollect
 
 The parser intentionally does not evaluate BibTeX string macros, `#` concatenation, `crossref` inheritance, or LaTeX text-formatting commands. Unsupported constructs remain local to the reference note and never trigger network access.
 
-Bibliography styles include **Plain / jplain**, **Abbreviated / jabbrv**, **Unsorted / junsrt**, **Alphabetic label**, **IEEE Transactions**, **ACM**, **SIAM**, and **APA-like**. Plain-family, Alpha, ACM, SIAM, and APA-like bibliographies are sorted by author; Unsorted and IEEE Transactions retain citation order. Duplicate citation keys are resolved deterministically: the entry in the alphabetically first note path wins, and duplicates are shown in settings.
+Bibliography styles include **Plain**, **Abbreviated**, **Unsorted**, **Alphabetic label**, **IEEE Transactions**, **ACM**, **SIAM**, and **APA-like**. Plain-family, Alpha, ACM, SIAM, and APA-like bibliographies are sorted by author; Unsorted and IEEE Transactions retain citation order. Duplicate citation keys are resolved deterministically: the entry in the alphabetically first note path wins, and duplicates are shown in settings.
 
 ## Installation
 

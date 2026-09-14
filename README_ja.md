@@ -49,7 +49,7 @@ Citeは、ノート内のBibTeXを参照し、LaTeX形式またはPandoc形式�
 
 BibTeXの文字列マクロ、`#`による連結、`crossref`による継承、LaTeXの文字装飾コマンドは評価しません。未対応の記述が外部へ送信されることはありません。
 
-文献スタイルは、**Plain / jplain**、**Abbreviated / jabbrv**、**Unsorted / junsrt**、**Alphabetic label**、**IEEE Transactions**、**ACM**、**SIAM**、**APA-like**に対応しています。Plain系、Alpha、ACM、SIAM、APA-likeは著者順、UnsortedとIEEE Transactionsは引用順に並びます。
+文献スタイルは、**Plain**、**Abbreviated**、**Unsorted**、**Alphabetic label**、**IEEE Transactions**、**ACM**、**SIAM**、**APA-like**に対応しています。Plain系、Alpha、ACM、SIAM、APA-likeは著者順、UnsortedとIEEE Transactionsは引用順に並びます。
 
 引用キーが重複した場合は、ノートパスのアルファベット順で最初のエントリを採用し、重複内容を設定画面に表示します。
 

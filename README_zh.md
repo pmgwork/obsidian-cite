@@ -49,7 +49,7 @@ Cite 支持常见的 `article`、`book`、`inproceedings`／`conference`、`inco
 
 解析器不会计算 BibTeX 字符串宏、`#` 拼接、`crossref` 继承或 LaTeX 文本格式命令。不受支持的内容不会被发送到外部服务。
 
-参考文献支持 **Plain / jplain**、**Abbreviated / jabbrv**、**Unsorted / junsrt**、**Alphabetic label**、**IEEE Transactions**、**ACM**、**SIAM** 和 **APA-like** 样式。Plain 系列、Alpha、ACM、SIAM 和 APA-like 按作者排序；Unsorted 和 IEEE Transactions 保留引用顺序。
+参考文献支持 **Plain**、**Abbreviated**、**Unsorted**、**Alphabetic label**、**IEEE Transactions**、**ACM**、**SIAM** 和 **APA-like** 样式。Plain 系列、Alpha、ACM、SIAM 和 APA-like 按作者排序；Unsorted 和 IEEE Transactions 保留引用顺序。
 
 当引用键重复时，Cite 会按照笔记路径的字母顺序采用第一条记录，并在设置页面中显示重复项。
 

@@ -30,5 +30,10 @@ describe("localization", () => {
       expect(getTranslations(locale).bibliographyStyles)
         .toEqual(BIBLIOGRAPHY_STYLE_LABELS);
     }
+    expect(BIBLIOGRAPHY_STYLE_LABELS).toMatchObject({
+      plain: "Plain",
+      abbrv: "Abbreviated",
+      unsrt: "Unsorted",
+    });
   });
 });

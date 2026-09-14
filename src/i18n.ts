@@ -3,9 +3,9 @@ import { getLanguage } from "obsidian";
 export type CiteLocale = "en" | "ja" | "zh";
 
 export const BIBLIOGRAPHY_STYLE_LABELS = {
-  plain: "Plain / jplain",
-  abbrv: "Abbreviated / jabbrv",
-  unsrt: "Unsorted / junsrt",
+  plain: "Plain",
+  abbrv: "Abbreviated",
+  unsrt: "Unsorted",
   alpha: "Alphabetic label",
   ieeetr: "IEEE Transactions",
   acm: "ACM",
